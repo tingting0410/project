@@ -1,0 +1,205 @@
+@charset"utf-8";
+
+/*header*/
+#head{
+	height:82px ;
+	position: relative;
+}
+.user_top{
+	width: 1190px;
+	height: 56px;
+	padding: 18px 0;
+	margin: 0 auto;
+}
+.user_top .back_index{
+	width: 160px;
+	height: 52px;
+	float: left;
+}
+.user_top .back_index a{
+	display: block;
+	width: 160px;
+	height: 52px;
+	background: url(../images/flow2.png) no-repeat 0 0;
+}
+.user_top .regis_right{
+	width: 180px;
+	height: 16px;
+	padding-top: 20px;
+	float: right;
+}
+.user_top .regis_right a{
+	color: #333;
+	font-size: 14px;
+	margin-right: 4px;
+}
+/*登录*/
+#login{
+	height: 458px;
+	padding: 72px 0;
+	background: #E62318;
+}
+.login_con{
+	width: 1070px;
+	height: 458px;
+	margin: 0 auto;
+}
+.login_le{
+	width: 620px;
+	height: 454px;
+	float: left;
+}
+.login_le a img{
+	background-color: transparent;
+}
+.login_r{
+	float: right;
+	position: relative;
+	width: 306px;
+	min-height: 371px;
+	background: #FFFFFF;
+	padding: 22px 27px 20px 27px;
+}
+.login_r .xian{
+	width: 360px;
+	position: absolute;
+	bottom: 68px;
+	border: solid 1px #f4f4f4;
+	left: 0;
+	z-index: 124;
+}
+.login_r .yahei{
+	width: 306px;
+	height: 416px;
+}
+.login_r .yahei .yahei_top{
+	width: 306px;
+	height: 45px;
+	border-bottom: rgb(244,244,244) 1px solid;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.login_r .yahei .yahei_top .login_tel{
+	color: #E62318;
+	font-weight: 700;
+	width: 306px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+}
+.login_r .yahei .login_form{
+	width: 306px;
+	position: relative;
+	height: 371px;
+}
+.login_r .yahei .login_form .sou_login{
+	width: 306px;
+	height: 259px;
+}
+.login_form .sou_login .lo_1{
+	width: 306px;
+	height: 40px;
+	position: relative;
+	border:1px solid #DDDDDD ;
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+.login_form .sou_login .lo_1 .icon{
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: url(../images/allPuzzle.png) 0 -30px no-repeat;
+	margin: 10px 16px 10px 11px;
+}
+.login_form .sou_login .lo_1 input{
+	float: left;
+	height: 20px;
+	font-size: 13px;
+	border:0;
+	padding: 10px 0;
+}
+.login_form .sou_login .lo_1 .icon2{
+	background-position:-21px -30px ;
+}
+.login_form .sou_login .forget{
+	color: #333333;
+	float: right;
+	font-size: 14px;
+}
+.btn_login{
+	display: block;
+	width: 306px;
+	height: 42px;
+	line-height: 42px;
+	background: #E62318;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin: 66px 0 17px 0; 
+	border-radius: 3px;
+}
+.other_login{
+	position: relative;
+	width: 440px;
+	left: -13px;
+	margin: 46px 0 0 0;
+	height: 28px;
+}
+.other_login .other1{
+	display: block;
+	box-sizing: border-box;
+	padding-left: 13px;
+	width: 109px;
+	height: 28px;
+	float: left;
+}
+.other_login .other1 i{
+	float: left;
+	margin-right: 6px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: url(../images/allPuzzle.png) no-repeat -73px -172px;
+}
+.other_login .other1 span{
+	float: left;
+	border-right: solid 1px #D5D5D5;
+	padding-right: 13px;
+	line-height: 16px;
+	display: inline-block;
+	color: #999999;
+	font-size: 12px;
+	margin-top: 7px;
+}
+.other_login .other1 .other2{
+	background-position: -73px -80px;
+}
+.other_login .other1 .other3{
+	background-position: -73px -108px;
+}
+
+
+
+
+/*最后*/
+#foot{
+	height: 152px;
+	background: #f8f8f8;
+}
+.foot_con{
+	width: 1134px;
+	height: 152px;
+	margin: 0 auto;
+}
+#bot{
+	height: 91px;
+	background: #1f1f1f;
+}
+.bot_con{
+	width: 1199px;
+	height: 90px;
+	margin: 0 auto;
+}

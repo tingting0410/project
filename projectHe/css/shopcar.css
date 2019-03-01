@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*结算*/
+.clearfix:after{
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.nav{
+	width: 900px;
+	border: 1px solid red;
+	
+	margin: 0 auto;
+}
+
+.nav > span{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 10px 0;
+	border-right: 1px solid red;
+	cursor: pointer;
+}
+.nav > span.cur{
+	color: red;
+}
+.shoplist{
+	width: 900px;
+	display: block;
+	margin: 50px auto 0;
+
+}
+.shoplist > li{
+	width: 200px;
+	/*height: 200px;*/
+	border: 1px solid #d1d1d1;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.shoplist > li button{
+	font-size: 24px;
+	margin-top: 10px;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+.shoplist > li img{
+	height: 150px;
+	display: inline-block;
+}
+.shoplist > li p{
+	width: 100%;
+	height: 20px;
+	margin-top: 5px;
+}
+
+.shoplist{
+				width: 1050px;
+			}
+			.shop-item{
+				width: 100%;
+				
+				/*border: 1px solid #d1d1d1;*/
+				margin: 20px auto;
+				text-align: center;
+			}
+			.fl{
+				float: left;
+			}
+			.shop-item input[type="checkbox"]{
+				width: 30px;
+				height: 30px;
+			}
+			.shop-item .fl{
+				padding: 10px;
+				width: 129px;
+				display: block;
+				font-style: normal;
+				height: 150px;
+				border: 1px solid #d1d1d1;
+				margin-left: -1px;
+			}
+			.shop-item .fl:after{
+				content: "";
+				display: inline-block;
+				vertical-align: middle;
+				height: 100%;
+			}
+			.shop-item .count > span{
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border: 1px solid #d1d1d1;
+				line-height: 30px;
+				cursor: pointer;
+				margin-left: 5px;
+			}
+			#sum{
+				width: 1050px;
+				margin: 20px auto 100px;
+				text-align: right;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bottom*/
+/*最后*/
+#bottom{
+	height: 418px;
+	background: #F8F8F8;
+}
+.bottom_con{
+	width: 1200px;
+	height:418px;
+	margin: 0 auto;
+}
+.bottom_con img{
+	width: 1200px;
+	height: 418px;
+}
+/*最后*/
+#bot2{
+	height: 172px;
+	background: #1f1f1f;
+}
+.bot2_con{
+	width: 1200px;
+	height:172px;
+	margin: 0 auto;
+}
+.bot2_con img{
+	width: 1200px;
+	height: 172px;
+}

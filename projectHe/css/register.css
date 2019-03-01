@@ -1,0 +1,241 @@
+@charset"utf-8";
+
+.all_con{
+	width: 1190px;
+	margin: 0 auto;
+}
+/*main*/
+#user_all{
+	height: 660px;
+	position: relative;
+}
+.all_con{
+	height: 660px;
+	margin-bottom: 70px;
+}
+.user_top{
+	width: 1190px;
+	height: 56px;
+	padding: 30px 0;
+}
+.user_top .back_index{
+	width: 160px;
+	height: 52px;
+	float: left;
+}
+.user_top .back_index a{
+	display: block;
+	width: 160px;
+	height: 52px;
+	background: url(../images/flow2.png) no-repeat 0 0;
+}
+.user_top .regis{
+	width: 130px;
+	height: 70px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+.user_top .regis .regis_p{
+	font-size: 24px;
+	color: #333333;
+	
+}
+.user_top .regis_right{
+	width: 180px;
+	height: 16px;
+	padding-top: 40px;
+	float: right;
+}
+.user_top .regis_right a{
+	color: #333;
+	font-size: 14px;
+	margin-right: 4px;
+}
+.user_content{
+	width: 1148px;
+	height: 462px;
+	padding: 40px 0 40px 40px ;
+	border:1px solid #d7d7d7 ;
+}
+.user_content .user_left{
+	width: 768px;
+	height: 457px;
+	border-right:1px solid #ddd ;
+	color: #555;
+	float: left;
+}
+.user_content .regi_box{
+	width: 768px;
+	height: 417px;
+	padding: 20px 0;
+}
+.user_content .regi_box p{
+	width: 768px;
+	height: 42px;
+	margin-bottom: 10px;
+}
+.user_content .regi_box p label{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+	font-size: 14px;
+}
+.user_content .regi_box p input{
+	height: 40px;
+	line-height: 40px;
+	width: 296px;
+	border:1px solid #d5d5d5 ;
+	font-size: 14px;
+	padding: 0 5px;
+}
+.user_content .regi_box p span{
+	width: 255px;
+	height: 30px;
+	padding: 5px;
+	margin-left: 30px;
+	border: solid 1px #d5d5d5;
+	background: #fff;
+	color: gray;
+	font-size: 14px;
+	display: none;
+}
+.user_content .regi_box .p5{
+	position: relative;
+}
+.user_content .regi_box p .sp5{
+	position: absolute;
+	left: 396px;
+	top: 1px;
+	display: block;
+	width: 61px;
+	height: 27px;
+	background: pink;
+    margin-left: 30px;
+	font-style: italic;
+	line-height: 27px;
+	text-align: center;
+}
+.user_content .regi_box p .sp6{
+	margin-left: 136px;
+	font-size: 12px;
+}
+.user_content .regi_box p .p_a{
+	position: absolute;
+	left: 496px;
+	top: 11px;
+	color: lightskyblue;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.user_content .regi_box .agreement{
+	padding: 10px 0 20px 100px;
+	width: 668px;
+	height: 19px;
+}
+.user_content .regi_box .agreement .chec{
+	width: 13px;
+	height: 13px;
+}
+.user_content .regi_box .agreement .labe{
+	width: 168px;
+	margin-left: 20px;
+}
+.user_content .regi_box p .button{
+	cursor: pointer;
+	background: #CF000E;
+	width: 308px;
+	height: 42px;
+	border: 0;
+	outline:0 ;
+	margin-left:80px;
+}
+.user_sao{
+	width: 220px;
+	height: 462px;
+	float: right;
+	margin-right: 80px;
+	color: #555555;
+	position: relative;
+}
+.user_sao .sao_top{
+	width: 220px;
+	height: 32px;
+	padding: 20px 0;
+	border-bottom:1px solid #eee ;
+	text-align: center;
+}
+.user_sao .sao_top .span_top{
+	float: left;
+	width: 48px;
+	height: 16px;
+	font-size: 12px;
+	line-height: 38px;
+	margin-left: 40px;
+}
+.user_sao .sao_top .sub{
+	float: left;
+	display: block;
+	width: 70px;
+	height: 32px;
+	background: #CF000E;
+	border:0;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #FFFFFF;
+	text-align: center;
+	line-height:32px ;
+}
+.user_sao .sao_er{
+	width: 220px;
+	height: 351px;
+	position: relative;
+}
+.user_sao .sao_er .pot{
+	width: 220px;
+	height: 134px;
+	padding: 90px 0;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	text-align: center;
+}
+.user_sao .sao_er .pot img{
+	width: 103px;
+	height: 105px;
+	margin: 0 auto;
+}
+.user_sao .sao_er .pot_p{
+	font-size: 14px;
+	color: #333;
+	line-height: 14px;
+	margin-top: 20px;
+}
+.user_sao .cooperation{
+	width: 124px;
+	height: 70px;
+}
+.user_sao .cooperation img{
+	position: absolute;
+	width: 124px;
+	height: 70px;
+	top: 400px;
+}
+/*最后*/
+#foot{
+	height: 152px;
+	background: #f8f8f8;
+}
+.foot_con{
+	width: 1134px;
+	height: 152px;
+	margin: 0 auto;
+}
+#bot{
+	height: 91px;
+	background: #1f1f1f;
+}
+.bot_con{
+	width: 1199px;
+	height: 90px;
+	margin: 0 auto;
+}
